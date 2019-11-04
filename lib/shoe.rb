@@ -8,9 +8,8 @@ class Shoe
   def brand=(brand)
     @brand=brand
     BRANDS.push(brand)
-    binding.pry
   end
-  
+   binding.pry
   def brand
     @brand
   end
