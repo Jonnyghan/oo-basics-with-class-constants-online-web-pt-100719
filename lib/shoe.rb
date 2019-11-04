@@ -6,6 +6,7 @@ class Shoe
   
   def brand=(brand)
     @brand=brand
+    BRANDS.push(brand)
   end
   
   def brand
