@@ -5,17 +5,11 @@ class Shoe
 
   BRANDS = []
   
-  def brand=(brand)
-    @brand=brand
-    BRANDS.push(brand)
-   binding.pry
-  end
-  def brand
-    @brand
-  end
+  
   
   def initialize(brand)
     @brand = brand
+    if BRANDS.include?(@brand)
   end
 
   def cobble
